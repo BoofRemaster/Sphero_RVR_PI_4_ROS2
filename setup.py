@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'echo = rvr_pi_4.echo_rvr:main'
+            'echo = rvr_pi_4.echo_rvr:main',
+            'drive = rvr_pi_4.drive_rvr:main'
         ],
     },
 )
